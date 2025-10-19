@@ -1,7 +1,7 @@
 configuration {
     modi: "run,drun,window";
     lines: 5;
-    font: "Tiposka Dev 12";
+    font: "Tiposka 12";
     show-icons: true;
     terminal: "st";
     drun-display-format: "{icon} {name}";
@@ -110,7 +110,7 @@ mode-switcher button {
     background-color: #44475a;
     vertical-align: 0.5;
     horizontal-align: 0.0;
-    font: "Tiposka Dev 12";
+    font: "Tiposka 12";
 }
 
 /* Selected state for the active mode button */
