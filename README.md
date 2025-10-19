@@ -36,6 +36,7 @@ Make sure the following packages are installed:
 - `acpi`
 - `dash` (shell, used as the shell for some shcripts) 
 - `iwd/iwgtk` (Can be reconfigured to other networking programs like networkmanager, connman, or wpa_suppplicant)
+- `ranger` (used for file manager keybind. you can change this keybind to work for your file manager of choice)
 - `imlib2`
 - `xsetroot package` (status2d uses this to add colors on dwmbar)
 
