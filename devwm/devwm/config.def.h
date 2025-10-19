@@ -43,7 +43,7 @@ static const int new_window_attach_on_end = 0; /*  1 means the new window will a
 #define ICONSPACING 8 /* space between icon and title */
 
 
-static const char *fonts[]          = {"Tiposka Dev:size=10", "JetBrainsMono Nerd Font Mono:style:medium:size=16"};
+static const char *fonts[]          = {"Tiposka:size=10", "JetBrainsMono Nerd Font Mono:style:medium:size=16"};
 
 // theme
 #include "themes/dracula.h"
