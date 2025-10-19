@@ -43,15 +43,14 @@ static const int new_window_attach_on_end = 0; /*  1 means the new window will a
 #define ICONSPACING 8 /* space between icon and title */
 
 
-//static const char *fonts[]          = {"Iosevka:style:medium:size=12" ,"JetBrainsMono Nerd Font Mono:style:medium:size=16", "Tiposka:size=12" };
-static const char *fonts[]          = {"Tiposka Dev:size=10", "JetBrainsMono Nerd Font Mono:style:medium:size=16"};
+static const char *fonts[]          = {"Tiposka:size=10", "JetBrainsMono Nerd Font Mono:style:medium:size=16"};
 
 // theme
 #include "themes/dracula.h"
 
 static const char *colors[][3]      = {
     /*                     fg       bg      border */
-    [SchemeNorm]       = { gray3,   black,  gray2 }, // fg gray3 too
+    [SchemeNorm]       = { gray3,   black,  gray2 }, 
     [SchemeSel]        = { gray4,   blue,   blue  },
     [SchemeTitle]      = { white,   black,  black }, // active window title
     [TabSel]           = { blue,    gray2,  black },
