@@ -31,10 +31,11 @@ Make sure the following packages are installed:
 - `Tiposka Font` (OR replace All Instances of "Tiposka" a different font of choice.)
 - `picom` (recommended for transparency and fading)
 - `eww` (for widgets)
-- `rofi` (with custom theme)
-- `feh`
+- `rofi` (with transparency and custom config)
+- `feh` (used for user desktop background)
 - `acpi`
-- `dash` (shell)
+- `dash` (shell, used as the shell for some shcripts) 
+- `iwd/iwgtk` (Can be reconfigured to other networking programs like networkmanager, connman, or wpa_suppplicant)
 - `imlib2`
 - `xsetroot package` (status2d uses this to add colors on dwmbar)
 
