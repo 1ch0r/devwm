@@ -27,7 +27,8 @@ Here’s devwm in action:
 ## 📦 Dependencies
 
 Make sure the following packages are installed:
-- `Tiposka Font` (OR replace All Instances of "Tiposka Dev" a different font of choice.)
+- `JetBrains Mono Nerd Fonts/Icons` (This is used for the icons mostly)
+- `Tiposka Font` (OR replace All Instances of "Tiposka" a different font of choice.)
 - `picom` (recommended for transparency and fading)
 - `eww` (for widgets)
 - `rofi` (with custom theme)
@@ -41,12 +42,16 @@ Make sure the following packages are installed:
 git clone https://github.com/1ch0r/devwm ~/.config/devwm
 cd ~/.config/devwm/devwm
 sudo make clean install
+cd ~/.config/devwm
+cp -r eww ~/.config/
+cp -r rofi ~/.config/
 ```
+
 ## ⌨️ Basic Keybindings
-MOD + w:	Toggle EWW bar
-MOD + q:  Quit active window
-MOD + Enter:	Launch terminal
-MOD + r:	Launch Rofi
-MOD + f:	Launch ranger
-MOD + u:  Launch flameshot
+- MOD + w:	Toggle EWW bar
+- MOD + q:  Quit active window
+- MOD + Enter:	Launch terminal
+- MOD + r:	Launch Rofi
+- MOD + f:	Launch ranger
+- MOD + u:  Launch flameshot
 
