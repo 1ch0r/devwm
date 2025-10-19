@@ -58,9 +58,10 @@ cp -r rofi ~/.config/
 - startx ~/.config/devwm/scripts/run.sh (for startx)
 - sx sh ~/.config/devwm/scripts/run.sh (for sx)
 
-- With Display Manager:
+## With Display Manager:
 
 Create a desktop entry (make sure to change user with your user):
+
 ```bash
 sudo touch /usr/share/xsessions/devwm.desktop
 ```
@@ -80,7 +81,31 @@ Type=Application
 - MOD + f:	Launch ranger
 - MOD + u:  Launch flameshot
 
+
+## Patches
+
+  -alpha
+  -windowmap
+  -systray
+  -barpadding
+  -bottomstack
+  -cfacts
+  -dragmfact
+  -dragcfact (took from bakkeby's build)
+  -fibonacii
+  -gaplessgrid
+  -horizgrid
+  -movestack
+  -vanity gaps
+  -colorful tags
+  -statuspadding
+  -status2d
+  -underline tags
+  -notitle
+  -winicon
+  -preserveonrestart. This patch doesnt let all windows mix up into tag 1 after restarting dwm.
+  -shiftview
+
 ## ! DISCLAIMER
 Eww's setup is extremely messy due to chadwm's original unintuitive configuration.
-
 
