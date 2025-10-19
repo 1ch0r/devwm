@@ -84,27 +84,27 @@ Type=Application
 
 ## Patches
 
-  -`alpha` (added new in devwm)
-  -`windowmap` (added new in devwm)
-  -`systray`
-  -`barpadding`
-  -`bottomstack`
-  -`cfacts`
-  -`dragmfact`
-  -`dragcfact` (took from bakkeby's build)
-  -`fibonacii`
-  -`gaplessgrid`
-  -`horizgrid`
-  -`movestack`
-  -`vanity gaps`
-  -`colorful tags`
-  -`statuspadding`
-  -`status2d`
-  -`underline tags`
-  -`notitle`
-  -`winicon`
-  -`preserveonrestart` (This patch doesnt let all windows mix up into tag 1 after restarting dwm.)
-  -`shiftview`
+  - `alpha` (added new in devwm)
+  - `windowmap` (added new in devwm)
+  - `systray`
+  - `barpadding`
+  - `bottomstack`
+  - `cfacts`
+  - `dragmfact`
+  - `dragcfact` (took from bakkeby's build)
+  - `fibonacii`
+  - `gaplessgrid`
+  - `horizgrid`
+  - `movestack`
+  - `vanity gaps`
+  - `colorful tags`
+  - `statuspadding`
+  - `status2d`
+  - `underline tags`
+  - `notitle`
+  - `winicon`
+  - `preserveonrestart` (This patch doesnt let all windows mix up into tag 1 after restarting dwm.)
+  - `shiftview`
 
 ## ! DISCLAIMER
 Eww's setup is extremely messy due to chadwm's original unintuitive configuration.
