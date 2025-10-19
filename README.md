@@ -32,9 +32,17 @@ Make sure the following packages are installed:
 - `picom` (recommended for transparency and fading)
 - `eww` (for widgets)
 - `rofi` (with custom theme)
+- `feh`
+- `acpi`
+- `dash` (shell)
+- `imlib2`
+- `xsetroot package` (status2d uses this to add colors on dwmbar)
 
 
 ## ⚙️ Installation
+
+### .sh scripts
+- Do chmod +x to all shcripts
 
 ### Clone and Build
 
