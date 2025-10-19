@@ -21,12 +21,13 @@
 ## 📸 Screenshots
 
 Here’s devwm in action:
-
+![Rofi theme/EWW](assets/ewwrofi.png)
+![r/unixporn style fetch](assets/fetch.png)
 
 ## 📦 Dependencies
 
 Make sure the following packages are installed:
-
+- `Tiposka Font` (OR replace All Instances of "Tiposka Dev" a different font of choice.)
 - `picom` (recommended for transparency and fading)
 - `eww` (for widgets)
 - `rofi` (with custom theme)
