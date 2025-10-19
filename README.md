@@ -61,15 +61,16 @@ cp -r rofi ~/.config/
 - With Display Manager:
 
 Create a desktop entry (make sure to change user with your user):
-
-sudo touch /usr/share/xsessions/devwm.desktop  
-
+```bash
+sudo touch /usr/share/xsessions/devwm.desktop
+```
+```
 [Desktop Entry]
 Name=devwm
 Comment=dwm for short
 Exec=/home/user/.config/devwm/scripts/./run.sh 
 Type=Application 
-
+```
 
 ## ⌨️ Basic Keybindings
 - MOD + w:	Toggle EWW bar
