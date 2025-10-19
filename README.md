@@ -59,7 +59,7 @@ cp -r rofi ~/.config/
 - startx ~/.config/devwm/scripts/run.sh (for startx)
 - sx sh ~/.config/devwm/scripts/run.sh (for sx)
 
-## With Display Manager:
+## 🖥️ Display Manager:
 
 Create a desktop entry (make sure to change user with your user):
 
@@ -83,7 +83,7 @@ Type=Application
 - MOD + u:  Launch flameshot
 
 
-## Patches
+## 📄 Patches
 
   - `alpha` (added new in devwm)
   - `windowmap` (added new in devwm)
@@ -106,6 +106,7 @@ Type=Application
   - `winicon`
   - `preserveonrestart` (This patch doesnt let all windows mix up into tag 1 after restarting dwm.)
   - `shiftview`
+
 
 ## ! DISCLAIMER
 Eww's setup is extremely messy due to chadwm's original unintuitive configuration.
