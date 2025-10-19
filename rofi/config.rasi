@@ -1,0 +1,128 @@
+configuration {
+    modi: "run,drun,window";
+    lines: 5;
+    font: "Tiposka Dev 12";
+    show-icons: true;
+    terminal: "st";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: " 󰀻 prgms ";
+}
+
+@theme "/home/dev/.config/rofi/themes/dracula.rasi"
+
+* {
+    bg-col: rgba(33, 34, 44, 0.0);
+    bg-col-light: rgba(68, 69, 88, 0.6);
+    border-col: #44475a;
+    selected-col: rgba(189, 147, 249, 0.6);
+    blue: #bd93f9;
+    fg-col: #f8f8f2;
+    fg-col2: #ffffff;
+    grey: #6272a4;
+
+    /* Dedicated colors for the mode-switcher buttons (affects display label area) */
+    drun-fg-col: #ff79c6;
+    drun-bg-col: rgba(68, 69, 88, 0.25);
+}
+
+element-text, element-icon, mode-switcher {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+window {
+    anchor: east;
+    x-offset: -372;
+    y-offset: 8;
+    width: 600px;
+    height: 1042px;
+    border-color: @border-col;
+    background-color: @bg-col;
+}
+
+mainbox {
+    background-color: @bg-col;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: @bg-col;
+    border-radius: 0px;
+    padding: 2px;
+}
+
+prompt {
+    background-color: @blue;
+    padding: 6px;
+    text-color: @black;
+    border-radius: 0px;
+    margin: 20px 0px 0px 20px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+}
+
+entry {
+    padding: 6px;
+    margin: 20px 0px 0px 10px;
+    text-color: @fg-col;
+    background-color: @bg-col;
+}
+
+listview {
+    border: 0px 0px 0px;
+    padding: 6px 0px 0px;
+    margin: 10px 0px 0px 20px;
+    columns: 2;
+    background-color: @bg-col;
+}
+
+element {
+    padding: 5px;
+    background-color: @bg-col;
+    text-color: @fg-col;
+}
+
+element selected {
+    background-color: @selected-col;
+    text-color: @fg-col2;
+}
+
+element-icon {
+    size: 20px; //25
+}
+
+mode-switcher {
+    spacing: 0;
+    margin: 12px 0px 0px 20px;
+}
+
+/* Style buttons inside the mode switcher (this affects the displayed mode labels) */
+mode-switcher button {
+    padding: 6px 10px;
+    border-radius: 6px;
+    text-color: @drun-fg-col;
+    background-color: #44475a;
+    vertical-align: 0.5;
+    horizontal-align: 0.0;
+    font: "Tiposka Dev 12";
+}
+
+/* Selected state for the active mode button */
+mode-switcher button selected {
+    text-color: @bg-col;
+    background-color: @blue;
+}
+
+button {
+    padding: 10px;
+    background-color: rgba(33, 34, 44, 0.4);
+    text-color: @grey;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}
