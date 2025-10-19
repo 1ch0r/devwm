@@ -54,6 +54,22 @@ cd ~/.config/devwm
 cp -r eww ~/.config/
 cp -r rofi ~/.config/
 ```
+### Start devwm
+- startx ~/.config/devwm/scripts/run.sh (for startx)
+- sx sh ~/.config/devwm/scripts/run.sh (for sx)
+
+- With Display Manager:
+
+Create a desktop entry (make sure to change user with your user):
+
+sudo touch /usr/share/xsessions/devwm.desktop  
+
+[Desktop Entry]
+Name=devwm
+Comment=dwm for short
+Exec=/home/user/.config/devwm/scripts/./run.sh 
+Type=Application 
+
 
 ## ⌨️ Basic Keybindings
 - MOD + w:	Toggle EWW bar
@@ -62,4 +78,8 @@ cp -r rofi ~/.config/
 - MOD + r:	Launch Rofi
 - MOD + f:	Launch ranger
 - MOD + u:  Launch flameshot
+
+## ! DISCLAIMER
+Eww's setup is extremely messy due to chadwm's original unintuitive configuration.
+
 
