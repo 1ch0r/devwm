@@ -1,7 +1,6 @@
-# devwm
-A heavily customized chadwm fork. Includes alpha patch for transparency, and windowmap patch for fading affects.
 
-# 🧠 devwm — A Transparent, Fading, Widget-Toggled DWM Fork for Gentoo Power Users
+# 🧠 devwm — A heavily customized chadwm/dwm fork for Gentoo.
+
 
 **devwm** is a heavily customized fork of [chadwm](https://github.com/siduck/chadwm), tailored for Gentoo users who want a more aesthetic dwm rice. It integrates transparency, fading effects, EWW widget toggling, and a custom Rofi theme — all modified with Gentoo in mind, but can be adapted to other distros.
 
