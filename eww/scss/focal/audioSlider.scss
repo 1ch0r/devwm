@@ -1,0 +1,57 @@
+.audioSliders {
+  margin-bottom: 1rem;
+}
+
+.masterSlider,.headphoneSlider {
+  margin: .5rem;
+  margin-top: -1rem;
+  margin-left: 1rem;
+  margin-bottom: 0rem;
+}
+
+.micSlider {
+  margin: .5rem;
+  margin-top: -1rem;
+  margin-left: 0.7rem;
+  margin-bottom: 0rem;
+
+}
+
+.addPadding {
+  padding: 0 .6rem;
+}
+
+.masterSlider scale trough highlight, .headphoneSlider scale trough highlight , .micSlider scale trough highlight {
+  border-radius: 0rem;
+}
+
+.masterSlider scale trough, .headphoneSlider scale trough , .micSlider scale trough {
+  background-color: $blackAlt;
+  border-radius: 0rem;
+  min-width: 1.9rem;
+}
+
+.masterSlider scale trough highlight {
+  background-color: $yellow;
+  border-radius: 0rem;
+}
+
+.headphoneSlider scale trough highlight {
+  background-color: $yellow;
+  border-radius: 0rem; 
+}
+
+.micSlider scale trough highlight {
+  background-color: $yellow;
+  border-radius: 0rem; 
+}
+
+
+.audioIcon {
+  font-family:  'Tiposka Dev';
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  padding: 0 1.2rem;
+  border-radius: 50%;
+  color: $yellow;
+}

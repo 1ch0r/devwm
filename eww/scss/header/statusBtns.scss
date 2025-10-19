@@ -1,0 +1,19 @@
+.close , .min , .max{
+  font-family: 'Tiposka Dev';
+  font-size: 1.6rem;
+  padding: 0 0.5rem;
+  color: $red;
+}
+
+.min {
+  color: $yellow;
+}
+
+.close {
+  font-size: 1.8rem;
+}
+
+.close:hover , .min:hover{
+  color: $red;
+  border-radius: 10%; 
+}
