@@ -8,6 +8,7 @@
 
 - **Alpha Patch for Transparency**  
   Enables true window transparency using the official [alpha patch](https://dwm.suckless.org/patches/alpha/), compatible with picom.
+  Lets users apply transparency to their top bar. (WARNING: due to how transparency is rendered, the bar's gamma will be higher than normal with alpha applied)
 
 - **WindowMap Patch for Fading**  
   Adds smooth fade-in/out transitions to window events, enhancing visual polish.
