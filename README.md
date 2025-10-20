@@ -19,9 +19,8 @@
 - **Custom Rofi Theme**  
   Includes a personalized Rofi configuration with transparency, left-centered layout, and modern styling.
 
-## 📸 Screenshots
+## 📸 Demonstration
 
-Here’s devwm in action:
 ![Rofi theme/EWW](assets/ewwrofi.png)
 ![r/unixporn style fetch](assets/fetch.png)
 
